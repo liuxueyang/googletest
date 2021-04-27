@@ -425,6 +425,7 @@ class TypeIdHelper {
   static bool dummy_;
 };
 
+  // COMMENT: interesting design
 template <typename T>
 bool TypeIdHelper<T>::dummy_ = false;
 
